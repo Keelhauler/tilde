@@ -33,18 +33,21 @@
   const CONFIG = {
     commandPathDelimiter: '/',
     commandSearchDelimiter: ' ',
-    defaultSearchTemplate: 'https://duckduckgo.com/?q={}',
+    defaultSearchTemplate: 'https://www.google.com/search?q={}',
     openLinksInNewTab: true,
     suggestionLimit: 4,
   };
 
   const COMMANDS = new Map([
-    ['a', { name: 'Chat', url: 'https://chat.openai.com' }],
+    ['a', { name: 'Amazon', url: 'https://amazon.com' }],
+    ['ai', { name: 'ChatGPT', url: 'https://chat.openai.com' }],
     ['b', { name: 'Dribbble', url: 'https://dribbble.com/shots/recent' }],
     ['c', { name: 'Calendar', url: 'https://calendar.google.com' }],
     ['d', { name: 'Drive', url: 'https://drive.google.com' }],
-    ['f', { name: 'Figma', url: 'https://www.figma.com' }],
+    ['fig', { name: 'Figma', url: 'https://www.figma.com' }],
+    ['f', { name: 'D2Foudry', url: 'https://d2foundry.gg/' }],
     ['g', { name: 'GitHub', url: 'https://github.com' }],
+    ['gar', { name: 'Garmoth', url: 'https://garmoth.com/' }],
     ['k', { name: 'Keep', url: 'https://keep.google.com' }],
     ['m', { name: 'Mail', url: 'https://mail.proton.me/u/0/inbox' }],
     ['n', { name: 'Notion', url: 'https://www.notion.so' }],
@@ -62,6 +65,7 @@
         url: 'https://reddit.com',
       },
     ],
+    ['rr', { name: 'RaidReport', url: 'https://raid.report/pc/4611686018467366488' }],
     ['s', { name: 'Supabase', url: 'https://supabase.com/dashboard/projects' }],
     ['t', { name: 'Translate', url: 'https://www.deepl.com/translator' }],
     ['v', { name: 'Vercel', url: 'https://vercel.com/dashboard' }],
