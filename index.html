@@ -370,6 +370,11 @@
         key: '0',
         name: 'Local',
         url: 'http://localhost:3000',
+      },      {
+        hues: ['0', '0'],
+        key: 'home',
+        name: 'Homebridge',
+        url: 'http://10.0.0.93:8581/',
       },
     ].map((command) => {
       const hsla = (hue, saturation = 'var(--command-color-saturation)') =>
