@@ -15,10 +15,10 @@ query. e.g:
 - `y kittens` will
   [search YouTube for kittens](https://www.youtube.com/results?search_query=kittens)
 
-A DuckDuckGo search will be triggered if your input doesn&rsquo;t match a key.
+A Google search will be triggered if your input doesn&rsquo;t match a key.
 e.g:
 
-- `google` will [search DuckDuckGo for google](https://duckduckgo.com/?q=google)
+- `pie` will [search Google for pie](https://www.google.com/search?q=pie)
 
 To go to a specific path on a site, type the path after the site&rsquo;s key.
 e.g:
